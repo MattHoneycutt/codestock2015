@@ -1,0 +1,61 @@
+//Based on http://tympanus.net/Development/CreativeLinkEffects/
+.load-complete a {
+    transition: color linear 0.3s;
+}
+
+nav a {
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+
+    a:hover,
+    a:focus {
+	    outline: none;
+    }
+}
+
+.cool-links a {
+	padding: 12px 10px 10px;
+	color: #566473;
+	text-shadow: none;
+	font-weight: 700;
+
+    &::before,
+    &::after {
+	    position: absolute;
+	    top: 100%;
+	    left: 0;
+	    width: 100%;
+	    height: 3px;
+	    background: #566473;
+	    content: '';
+	    transition: transform 0.3s;
+	    transform: scale(0.85);
+    }
+
+    &::after {
+	    opacity: 0;
+	    transition: top 0.3s, opacity 0.3s, transform 0.3s;
+    }
+
+    &:hover::before,
+    &:hover::after,
+    &:focus::before,
+    &:focus::after {
+	    transform: scale(1);
+        background: #C95D33;
+    }
+
+    &:hover::after,
+    &:focus::after {
+	    top: 0;
+	    opacity: 1;
+    }
+}

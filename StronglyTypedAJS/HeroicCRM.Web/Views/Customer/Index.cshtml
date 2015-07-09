@@ -1,0 +1,15 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "Customers";
+}
+
+<div ng-controller="CustomerListController as vm">
+	<h1 class="page-header">
+		Customers
+		<a class="pull-right" href="" ng-click="vm.add()"><i class="fa fa-plus-circle"></i></a>
+	</h1>
+	<div class="customer-list">
+		<customer-details ng-repeat="customer in vm.customers" customer="customer"></customer-details>
+	</div>
+</div>

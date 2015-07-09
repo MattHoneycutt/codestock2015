@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "try-catch-FAIL"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-TryCatchFail.Web-8cf8f4b1-52ab-4ffc-b21c-50b7a4427936;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

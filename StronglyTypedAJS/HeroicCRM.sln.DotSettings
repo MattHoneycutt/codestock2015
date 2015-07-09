@@ -1,0 +1,584 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Description/@EntryValue">AngularHelper itself</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Shortcut/@EntryValue">demo14</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=05A4574571534A41A647919EE50555B1/Text/@EntryValue">public class AngularHelper&lt;TModel&gt;&#xD;
+{&#xD;
+	private readonly HtmlHelper&lt;TModel&gt; _htmlHelper;&#xD;
+&#xD;
+	public AngularHelper(HtmlHelper&lt;TModel&gt; helper)&#xD;
+	{&#xD;
+		_htmlHelper = helper;&#xD;
+	}&#xD;
+&#xD;
+	public AngularModelHelper&lt;TModel&gt; ModelFor(string expressionPrefix)&#xD;
+	{&#xD;
+		return new AngularModelHelper&lt;TModel&gt;(_htmlHelper, expressionPrefix);&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Shortcut/@EntryValue">demo17</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=096C60BC93C82544965E273A45130706/Text/@EntryValue">Object.defineProperty(Array.prototype, 'count', {&#xD;
+	get: function () { return this.length; }&#xD;
+});</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Description/@EntryValue">TemplateController implementation</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Shortcut/@EntryValue">demo03</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=148DD0922350CD478E6C3EB4E438E170/Text/@EntryValue">using System.Web.Mvc;&#xD;
+&#xD;
+namespace HeroicCRM.Web.Controllers&#xD;
+{&#xD;
+	public class TemplateController : HeroicCRMControllerBase&#xD;
+	{&#xD;
+		public PartialViewResult Render(string feature, string name)&#xD;
+		{&#xD;
+			return PartialView(string.Format("~/js/app/{0}/templates/{1}", feature, name));&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Shortcut/@EntryValue">demo18b</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1839D3BFEFBF0841A69E016548430987/Text/@EntryValue">@using (var risk = customer.Repeat(x =&gt; x.Risks, "risk"))&#xD;
+{&#xD;
+	&lt;hr ng-hide="$index == 0" /&gt;&#xD;
+	&lt;h3&gt;&#xD;
+		@risk.BindingFor(x =&gt; x.Title)&#xD;
+	&lt;/h3&gt;&#xD;
+	&lt;p&gt;@risk.BindingFor(x =&gt; x.Description)&lt;/p&gt;&#xD;
+}</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Description/@EntryValue">Header code for customer detials template</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Shortcut/@EntryValue">demo06</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A1C3FE328B62E4CB5FFDB9407CE53FA/Text/@EntryValue">@using HeroicCRM.Web.Helpers&#xD;
+@model HeroicCRM.Web.Models.CustomerViewModel&#xD;
+@{&#xD;
+	var customer = Html.Angular().ModelFor("vm.customer");&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Shortcut/@EntryValue">demo29</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2522818C2734CF41B7CE29F1447AD8AA/Text/@EntryValue">[DataType(DataType.EmailAddress),&#xD;
+ Display(Prompt = "some@user.com (home)")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Shortcut/@EntryValue">demo27</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2890999487CC5A4F8EF136646A4F88ED/Text/@EntryValue">[DataType(DataType.MultilineText)]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Description/@EntryValue">AddCustomer template with FormGroupFor</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Shortcut/@EntryValue">demo23</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2B5754C7B2C7AA449E92BFFB265CE5C1/Text/@EntryValue">@customer.FormGroupFor(x =&gt; x.Name)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.WorkEmail)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.HomeEmail)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.WorkPhone)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.HomePhone)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.WorkAddress)&#xD;
+&#xD;
+@customer.FormGroupFor(x =&gt; x.HomeAddress)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Description/@EntryValue">AngularHelperExtension</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Shortcut/@EntryValue">demo13</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2D917CC172F87C4DB0BDA1FF184AC33E/Text/@EntryValue">public static class AngularHelperExtension&#xD;
+{&#xD;
+	public static AngularHelper&lt;TModel&gt; Angular&lt;TModel&gt;(this HtmlHelper&lt;TModel&gt; helper)&#xD;
+	{&#xD;
+		return new AngularHelper&lt;TModel&gt;(helper);&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Shortcut/@EntryValue">demo33</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3568F95B1A757740B06F96C40BCEEB50/Text/@EntryValue">@Html.Angular().FormForModel("vm.risk")</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Description/@EntryValue">NgRepeat helper method</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Shortcut/@EntryValue">demo19</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4272BA6C489F2540BBB4051B4DA369B2/Text/@EntryValue">/// &lt;summary&gt;&#xD;
+/// Creates a div with an ng-repeat directive to enumerate the specified property,&#xD;
+/// and returns a new helper you can use for strongly-typed bindings on the items&#xD;
+/// in the enumerable property.&#xD;
+/// &lt;/summary&gt;&#xD;
+public AngularNgRepeatHelper&lt;TSubModel&gt; Repeat&lt;TSubModel&gt;(&#xD;
+	Expression&lt;Func&lt;TModel, IEnumerable&lt;TSubModel&gt;&gt;&gt; property, &#xD;
+	string variableName)&#xD;
+{&#xD;
+	var propertyExpression = ExpressionForInternal(property);&#xD;
+	return new AngularNgRepeatHelper&lt;TSubModel&gt;(&#xD;
+		Helper, variableName, propertyExpression);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Shortcut/@EntryValue">demo31</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=427FBB7819A9D94FAB7E854938191D12/Text/@EntryValue">[DataType(DataType.PhoneNumber)]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Shortcut/@EntryValue">demo30</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=433B9717D044F0418BF3EFD39D78588E/Text/@EntryValue">[Required, DataType(DataType.PhoneNumber)]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Shortcut/@EntryValue">demo22</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D3E5F49C4A8424BAF0663454BEC2642/Text/@EntryValue">@using HeroicCRM.Web.Helpers&#xD;
+@model HeroicCRM.Web.Models.AddCustomerForm&#xD;
+@{&#xD;
+	var customer = Html.Angular().ModelFor("vm.customer");&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Description/@EntryValue">Angular NG Repeat Helper implementation</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Shortcut/@EntryValue">demo20</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4D4EC3AC06B2D244AE460BF6B6E31177/Text/@EntryValue">using System;&#xD;
+using System.Web.Mvc;&#xD;
+using HtmlTags;&#xD;
+&#xD;
+namespace HeroicCRM.Web.Helpers&#xD;
+{&#xD;
+	public class AngularNgRepeatHelper&lt;TModel&gt; : AngularModelHelper&lt;TModel&gt;, IDisposable&#xD;
+	{&#xD;
+		public AngularNgRepeatHelper(HtmlHelper helper, &#xD;
+			string variableName, string propertyExpression)&#xD;
+			: base(helper, variableName)&#xD;
+		{&#xD;
+			var div = new HtmlTag("div");&#xD;
+			div.Attr("ng-repeat", &#xD;
+				string.Format("{0} in {1}", variableName, propertyExpression));&#xD;
+			div.NoClosingTag();&#xD;
+&#xD;
+			Helper.ViewContext.Writer.Write(div.ToString());&#xD;
+		}&#xD;
+&#xD;
+		void IDisposable.Dispose()&#xD;
+		{&#xD;
+			Helper.ViewContext.Writer.Write("&lt;/div&gt;");&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Description/@EntryValue">AngularModelHelper file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Shortcut/@EntryValue">demo15</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=57014473F4099547A9A64C2B108B8964/Text/@EntryValue">using System;&#xD;
+using System.Linq.Expressions;&#xD;
+using System.Web;&#xD;
+using System.Web.Mvc;&#xD;
+using HeroicCRM.Web.Utilities;&#xD;
+&#xD;
+namespace HeroicCRM.Web.Helpers&#xD;
+{&#xD;
+	public class AngularModelHelper&lt;TModel&gt;&#xD;
+	{&#xD;
+		protected readonly HtmlHelper Helper;&#xD;
+		private readonly string _expressionPrefix;&#xD;
+&#xD;
+		public AngularModelHelper(HtmlHelper helper, string expressionPrefix)&#xD;
+		{&#xD;
+			Helper = helper;&#xD;
+			_expressionPrefix = expressionPrefix;&#xD;
+		}&#xD;
+&#xD;
+		/// &lt;summary&gt;&#xD;
+		/// Converts an lambda expression into a camel-cased string, prefixed&#xD;
+		/// with the helper's configured prefix expression, ie:&#xD;
+		/// vm.model.parentProperty.childProperty&#xD;
+		/// &lt;/summary&gt;&#xD;
+		public IHtmlString ExpressionFor&lt;TProp&gt;(Expression&lt;Func&lt;TModel, TProp&gt;&gt; property)&#xD;
+		{&#xD;
+			var expressionText = ExpressionForInternal(property);&#xD;
+			return new MvcHtmlString(expressionText);&#xD;
+		}&#xD;
+&#xD;
+		/// &lt;summary&gt;&#xD;
+		/// Converts a lambda expression into a camel-cased AngularJS binding expression, ie:&#xD;
+		/// {{vm.model.parentProperty.childProperty}} &#xD;
+		/// &lt;/summary&gt;&#xD;
+		public IHtmlString BindingFor&lt;TProp&gt;(Expression&lt;Func&lt;TModel, TProp&gt;&gt; property)&#xD;
+		{&#xD;
+			return MvcHtmlString.Create("{{" + ExpressionForInternal(property) + "}}");&#xD;
+		}&#xD;
+&#xD;
+		private string ExpressionForInternal&lt;TProp&gt;(&#xD;
+			Expression&lt;Func&lt;TModel, TProp&gt;&gt; property)&#xD;
+		{&#xD;
+			var camelCaseName = property.ToCamelCaseName();&#xD;
+&#xD;
+			var expression = !string.IsNullOrEmpty(_expressionPrefix)&#xD;
+				? _expressionPrefix + "." + camelCaseName&#xD;
+				: camelCaseName;&#xD;
+&#xD;
+			return expression;&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Description/@EntryValue">Customer opportunities check</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Shortcut/@EntryValue">demo16</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5943ADC7134A314FB58828E684163A82/Text/@EntryValue">@customer.ExpressionFor(x =&gt; x.Opportunities.Length)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Shortcut/@EntryValue">demo28</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7736034A97EF404FA6B3D66E4BB18E2A/Text/@EntryValue">[Required, DataType(DataType.EmailAddress), &#xD;
+ Display(Prompt = "some@user.com (work)")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Shortcut/@EntryValue">demo04</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=867984AE8028E64991401465C02BD541/Text/@EntryValue">			routes.MapRoute(&#xD;
+				name: "Templates",&#xD;
+				url: "{feature}/Template/{name}",&#xD;
+				defaults: new {controller = "Template", action = "Render"}&#xD;
+			);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Shortcut/@EntryValue">demo26</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E6596012893944DA8B8F92DE98189DD/Text/@EntryValue">[Display(Prompt = "some@user.com (home)")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Description/@EntryValue">Replace E-mail</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Shortcut/@EntryValue">demo10</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8F3BEAF40F93DA44983DA4C8FC675AA7/Text/@EntryValue">Work: @customer.BindingFor(x =&gt; x.WorkEmail)&lt;br /&gt;&#xD;
+Home: @customer.BindingFor(x =&gt; x.HomeEmail)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Shortcut/@EntryValue">demo32</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9332636C1A693B46930C5124F7E3F090/Text/@EntryValue">@Html.Angular().FormForModel("vm.customer")</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Shortcut/@EntryValue">demo24</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9C71D22A0C4EBA4BA4D3B422DF4287C0/Text/@EntryValue">[Display(Name="Full Name", Prompt = "ex: John Doe")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Description/@EntryValue">ng-repeat replacement for opportunities</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Shortcut/@EntryValue">demo18</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AF0B38680463B9478A4FEACE6075454D/Text/@EntryValue">@using (var opportunity = customer.Repeat(x =&gt; x.Opportunities, "opportunity"))&#xD;
+{&#xD;
+	&lt;hr ng-hide="$index == 0" /&gt;&#xD;
+	&lt;h3&gt;&#xD;
+		@opportunity.BindingFor(x =&gt; x.Title)&#xD;
+	&lt;/h3&gt;&#xD;
+	&lt;p&gt;@opportunity.BindingFor(x =&gt; x.Description)&lt;/p&gt;&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Shortcut/@EntryValue">demo25</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B6468591624FB0478E77A8FC1C6A49AB/Text/@EntryValue">[Display(Prompt = "some@user.com (work)")]</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Description/@EntryValue">Address replacement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Shortcut/@EntryValue">demo12</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BD87313E27E6884BA281DE2281723C6D/Text/@EntryValue">&lt;th&gt;Work Address&lt;/th&gt;&#xD;
+&lt;td style="white-space: pre"&gt;@customer.BindingFor(x =&gt; x.WorkAddress)&lt;/td&gt;&#xD;
+&lt;th&gt;Home Address&lt;/th&gt;&#xD;
+&lt;td style="white-space: pre"&gt;@customer.BindingFor(x =&gt; x.HomeAddress)&lt;/td&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Description/@EntryValue">Applied BindingFor to cust name</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Shortcut/@EntryValue">demo08</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C3C7D653B64CC24981323B1E4EA64F5D/Text/@EntryValue">@customer.BindingFor(x =&gt; x.Name)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Description/@EntryValue">Fixed URL for customer details</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Shortcut/@EntryValue">demo05</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C7F8D69AA57F154CB6B0DD81C1D23480/Text/@EntryValue">'/customer/template/customerDetails.tmpl.cshtml'</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Shortcut/@EntryValue">demo18a</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D14D0A20CEA2AA42B4508CEBF449EBA0/Text/@EntryValue">@customer.ExpressionFor(x =&gt; x.Risks.Count)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Description/@EntryValue">BetterJsonResult method for base controller</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Shortcut/@EntryValue">demo02</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D717C83873038540A72E89F5FD547600/Text/@EntryValue">		public BetterJsonResult&lt;T&gt; BetterJson&lt;T&gt;(T model)&#xD;
+		{&#xD;
+			return new BetterJsonResult&lt;T&gt;() {Data = model};&#xD;
+		}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Shortcut/@EntryValue">demo34</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D9E3497B33808A40B63899557C5E0AF4/Text/@EntryValue">@Html.Angular().FormForModel("vm.opportunity")</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Description/@EntryValue">FormGroupFor helper</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Shortcut/@EntryValue">demo21</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DCBC392D9CB62345854D1CBEC0E6D430/Text/@EntryValue">public HtmlTag FormGroupFor&lt;TProp&gt;(Expression&lt;Func&lt;TModel, TProp&gt;&gt; property)&#xD;
+{&#xD;
+	var name = ExpressionHelper.GetExpressionText(property);&#xD;
+&#xD;
+	var expression = ExpressionForInternal(property);&#xD;
+&#xD;
+	//Creates &lt;div class="form-group has-feedback"&gt;&#xD;
+	var formGroup = new HtmlTag("div")&#xD;
+		.AddClasses("form-group");&#xD;
+&#xD;
+	//Creates &lt;label class="control-label" for="Name"&gt;Name&lt;/label&gt;&#xD;
+	var label = new HtmlTag("label")&#xD;
+		.AddClass("control-label")&#xD;
+		.Attr("for", name)&#xD;
+		.Text(name);&#xD;
+&#xD;
+	//Creates &lt;input ng-model="expression"&#xD;
+	//		   class="form-control" name="Name" type="text" &gt;&#xD;
+	var input = new HtmlTag("input")&#xD;
+		.AddClass("form-control")&#xD;
+		.Attr("ng-model", expression)&#xD;
+		.Attr("name", name)&#xD;
+		.Attr("type", "text");&#xD;
+&#xD;
+	return formGroup&#xD;
+		.Append(label)&#xD;
+		.Append(input);&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Description/@EntryValue">BetterJsonResult</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Shortcut/@EntryValue">demo01</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E2441FB3FE276F49A367A0551D22CB1E/Text/@EntryValue">﻿using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Linq;&#xD;
+using System.Web;&#xD;
+using System.Web.Mvc;&#xD;
+using HeroicCRM.Web.Utilities;&#xD;
+&#xD;
+namespace HeroicCRM.Web.ActionResults&#xD;
+{&#xD;
+	public class BetterJsonResult : JsonResult&#xD;
+	{&#xD;
+		public IList&lt;string&gt; ErrorMessages { get; private set; }&#xD;
+&#xD;
+		public BetterJsonResult()&#xD;
+		{&#xD;
+			ErrorMessages = new List&lt;string&gt;();&#xD;
+		}&#xD;
+&#xD;
+		public void AddError(string errorMessage)&#xD;
+		{&#xD;
+			ErrorMessages.Add(errorMessage);&#xD;
+		}&#xD;
+&#xD;
+		public override void ExecuteResult(ControllerContext context)&#xD;
+		{&#xD;
+			DoUninterestingBaseClassStuff(context);&#xD;
+&#xD;
+			SerializeData(context.HttpContext.Response);&#xD;
+		}&#xD;
+&#xD;
+		private void DoUninterestingBaseClassStuff(ControllerContext context)&#xD;
+		{&#xD;
+			if (context == null)&#xD;
+			{&#xD;
+				throw new ArgumentNullException("context");&#xD;
+			}&#xD;
+&#xD;
+			if (JsonRequestBehavior == JsonRequestBehavior.DenyGet &amp;&amp;&#xD;
+			    "GET".Equals(context.HttpContext.Request.HttpMethod, StringComparison.OrdinalIgnoreCase))&#xD;
+			{&#xD;
+				throw new InvalidOperationException(&#xD;
+					"GET access is not allowed.  Change the JsonRequestBehavior if you need GET access.");&#xD;
+			}&#xD;
+&#xD;
+			var response = context.HttpContext.Response;&#xD;
+			response.ContentType = string.IsNullOrEmpty(ContentType) ? "application/json" : ContentType;&#xD;
+&#xD;
+			if (ContentEncoding != null)&#xD;
+			{&#xD;
+				response.ContentEncoding = ContentEncoding;&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		protected virtual void SerializeData(HttpResponseBase response)&#xD;
+		{&#xD;
+			if (ErrorMessages.Any())&#xD;
+			{&#xD;
+				Data = new&#xD;
+				{&#xD;
+					ErrorMessage = string.Join("\n", ErrorMessages),&#xD;
+					ErrorMessages = ErrorMessages.ToArray()&#xD;
+				};&#xD;
+&#xD;
+				response.StatusCode = 400;&#xD;
+			}&#xD;
+&#xD;
+			if (Data == null) return;&#xD;
+&#xD;
+			response.Write(Data.ToJson());&#xD;
+		}&#xD;
+	}&#xD;
+&#xD;
+	public class BetterJsonResult&lt;T&gt; : BetterJsonResult&#xD;
+	{&#xD;
+		public new T Data&#xD;
+		{&#xD;
+			get { return (T)base.Data; }&#xD;
+			set { base.Data = value; }&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Description/@EntryValue">ng-show replacement</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Shortcut/@EntryValue">demo09</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ED541A563AFE7742BABDE79B210A3AD7/Text/@EntryValue">@customer.ExpressionFor(x =&gt; x.TerminationDate)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Description/@EntryValue">Replace phone binding</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Shortcut/@EntryValue">demo11</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F4C845FB832181449C040D1F2E84FBEA/Text/@EntryValue">Office: @customer.BindingFor(x =&gt; x.WorkPhone)&lt;br /&gt;&#xD;
+Mobile: @customer.BindingFor(x =&gt; x.HomePhone)</s:String></wpf:ResourceDictionary>

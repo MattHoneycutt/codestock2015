@@ -1,0 +1,67 @@
+﻿@inject IOptions<AppSettings> AppSettings
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@section SiteHeading {
+    <h1 class="logo">
+        <span class="try">try</span>-<span class="catch">catch</span>-<span class="fail">FAIL</span>
+    </h1>
+    <hr class="small">
+    <span class="subheading">Failure is inevitable</span>
+}
+
+<div class="row">
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">
+                Gulp with ASP.NET: am I doing it wrong?
+            </h2>
+            <h3 class="post-subtitle">
+                I hope the answer to that question is a very loud, emphatic, “YES!” I like gulp! I want to use it! And I’ll confess up front that I’m still very green with gulp. I know there are a lot of things it can probably do that I’m not taking advantage of. But, I feel like my development experience has taken a step backwards compared to what I had with ASP.NET Bundling & Minification. I feel like gulp has just added more development friction to my day. Someone, please tell me that I’m doing it wrong.
+            </h3>
+        </a>
+        <p class="post-meta">Posted by <a href="#">Matt Honeycutt</a> on June 17, 2015
+        </p>
+    </div>
+    <hr/>
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">
+                Ditching StructureMap’s ObjectFactory
+            </h2>
+            <h3 class="post-subtitle">
+                Another question people ask after they’ve watched my App Framework course at Pluralsight is, “What should I do now that StructureMap’s ObjectFactory has been deprecated?” Actually, it’s more like a cry for help rather than a question. It goes like this: “AAHHHHHH OBJECT FACTORY IS GOING AWAY WHAT DO I DO?? AHHHHHHHHHHHHHHHHHH!!” Or at least that’s how I choose to read the comments and questions. :) But don’t panic! Read on, it’s actually far easier to address than you might think.
+            </h3>
+        </a>
+        <p class="post-meta">Posted by <a href="#">Matt Honeycutt</a> on June 12, 2015
+        </p>
+    </div>
+    <hr/>
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">
+                Returning Multiple Result Sets from a Stored Procedure Using Entity Framework 6
+            </h2>
+            <h3 class="post-subtitle">
+                I know, I know, you’re already rolling your eyes!  “Stored procedures??!?”  But hey, sometimes a stored procedure is the best solution to a problem!  Entity Framework allows you to call stored procedures quite easily out of the box, but working with sprocs that return multiple result sets isn’t so easy.  Here’s a handy extension method you can use to make it easier.
+            </h3>
+        </a>
+        <p class="post-meta">Posted by <a href="#">Matt Honeycutt</a> on June 03, 2015
+        </p>
+    </div>
+    <hr />
+    <div class="post-preview">
+        <a href="post.html">
+            <h2 class="post-title">
+                Why are there no “solved problems” in software development?
+            </h2>
+            <h3 class="post-subtitle">
+                I’ve been on both sides of the stick in software development.  I’ve been a developer, trying to crank out a feature, and thinking “Geeze, I should be able to do this faster…” and “Wait, you mean this API doesn’t do this for me already??”  I’ve also been a product owner, wondering, “Why in the world is this taking so long?  It’s just a form!”  The sad truth is that even a seemingly-simple problem in software development can turn out to be a serious can of worms.  Why is that?  Well, because the devil is in the details, and there is no such thing as a “solved problem” in software development.
+            </h3>
+        </a>
+        <p class="post-meta">Posted by <a href="#">Matt Honeycutt</a> on May 19, 2015
+        </p>
+    </div>
+    <hr />
+</div>

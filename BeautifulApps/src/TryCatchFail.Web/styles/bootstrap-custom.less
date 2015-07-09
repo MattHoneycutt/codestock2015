@@ -1,0 +1,48 @@
+﻿@import "node_modules/bootstrap/less/bootstrap";
+@import "clean-blog-theme/clean-blog";
+﻿.intro-header {
+    &::after {
+        content: "";
+        background-image: url('/images/home-bg.jpg');
+        opacity: 0.1;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1; 
+        height: 448px;
+    }
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav li a,
+.intro-header .site-heading {
+    color: black;
+}
+
+.intro-header hr.small {
+    border-color: black;
+}
+
+.logo {
+    &, &:hover {
+        color: black !important;
+    }
+
+    .try {
+        color: #275B5B;
+    }
+
+    .catch {
+        color: #D69A2F;
+    }
+
+    .fail {
+        color: #A20F3E;
+    }
+}
+
+a:focus, a:hover {
+    color: #C95D33 !important;
+}

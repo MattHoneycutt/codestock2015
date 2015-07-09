@@ -1,0 +1,102 @@
+﻿[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+html, body, #wrapper{
+	height: 100%;
+}
+
+body {
+	margin-top: 0;
+}
+
+#page-wrapper {
+	padding-top: 50px;
+	min-height: 100%;
+}
+
+.navbar.navbar-fixed-top {
+	background-color: #222222;
+}
+
+.btn.btn-green {
+	color: white;
+	background-color: #5cb85c;
+}
+
+.btn.btn-green:hover {
+	color: white;
+	background-color: #3d8b3d;
+}
+
+.btn.btn-red {
+	color: white;
+	background-color: #d9534f;
+}
+
+.btn.btn-red:hover {
+	color: white;
+	background-color: #b52b27;
+}
+
+.col-md-1.half {
+	width: 4.5%;
+}
+
+textarea {
+	min-height: 90px;
+}
+
+/* Customer List */
+.customer-list .panel-heading {
+	font-size: 1.4em;
+}
+
+.customer-list .panel-heading .btn {
+	margin-top: -5px;
+}
+
+.customer-list th {
+	width: 100px;
+}
+
+.customer-list table {
+	font-size: 1em;
+}
+
+.customer-list .panel > .table + .panel-body {
+	border-top: none;
+}
+
+.opportunity-list h3, .risk-list h3 {
+	margin-top: 0;
+}
+
+.opportunity-list .add-btn,
+.risk-list .add-btn {
+	display: inline-block;
+	font-size: 0.9em;
+	margin-top: 1.5em;
+}
+
+.ng-hide-remove {
+  -webkit-transition:0.3s linear opacity;
+  transition:0.3s linear opacity;
+  opacity:1;
+}
+
+.ng-hide {
+  opacity:0;
+}
+
+.modal-backdrop {
+	position: fixed;
+}
+
+.btn-circle {
+	border-radius: 50%;
+}
+
+.has-feedback ng-transclude ~ input-validation-icons .form-control-feedback {
+	top: 26px;
+}

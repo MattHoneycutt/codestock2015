@@ -1,0 +1,23 @@
+﻿@model HeroicCRM.Web.Models.RiskViewModel[]
+
+@{
+	ViewBag.Title = "Risks";
+}
+
+<h1 class="page-header">
+	All Risks
+</h1>
+
+@foreach (var risk in Model)
+{
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<h4>
+				@risk.CustomerName - @risk.Title
+				<small class="pull-right">@risk.CreateDate.ToShortDateString()</small>
+			</h4>
+			<hr />
+			<p>@risk.Description</p>
+		</div>
+	</div>
+}

@@ -1,0 +1,23 @@
+﻿@model HeroicCRM.Web.Models.OpportunityViewModel[]
+
+@{
+	ViewBag.Title = "Opportunities";
+}
+
+<h1 class="page-header">
+	All Opportunities
+</h1>
+
+@foreach (var opportunity in Model)
+{
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<h4>
+				@opportunity.CustomerName - @opportunity.Title
+				<small class="pull-right">@opportunity.CreateDate.ToShortDateString()</small>
+			</h4>
+			<hr />
+			<p>@opportunity.Description</p>
+		</div>
+	</div>
+}

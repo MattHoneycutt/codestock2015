@@ -1,0 +1,47 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "Your Profile";
+}
+
+<h1 class="page-header">Update Your Profile</h1>
+<form novalidate
+	  name="vm.form"
+	  ng-controller="EditProfileController as vm"
+	  ng-submit="vm.save()"
+	  style="max-width: 500px;">
+	<fieldset ng-disabled="vm.saving">
+
+		<div class="alert alert-info" ng-show="vm.errorMessage == null && !vm.saving && !vm.success">
+			Make changes below.
+		</div>
+		<div class="alert alert-info" ng-show="vm.saving">
+			Saving changes...
+		</div>
+		<div class="alert alert-success" ng-show="vm.success">
+			<span class="fa fa-check"></span>
+			Changes saved!
+		</div>
+		<div class="alert alert-danger" ng-show="vm.errorMessage != null">
+			{{vm.errorMessage}}
+		</div>
+
+		<div class="form-group has-feedback">
+			<label class="control-label" for="FullName">Full Name</label>
+			<input required ng-model="vm.profile.fullName"
+				   class="form-control" name="FullName" type="text" placeholder="Your full name...">
+		</div>
+
+		<div class="form-group has-feedback">
+			<label class="control-label" for="EmailAddress">Email Address</label>
+			<input required ng-model="vm.profile.emailAddress"
+				   class="form-control" name="EmailAddress" type="email" placeholder="your@email.com...">
+		</div>
+
+		<div class="form-group">
+			<button class="btn btn-success">Save Changes</button>
+			<a class="btn btn-warning" href="/">Cancel</a>
+		</div>
+
+	</fieldset>
+</form>

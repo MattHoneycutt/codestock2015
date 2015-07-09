@@ -1,0 +1,97 @@
+﻿@using HeroicCRM.Web.Helpers
+@model HeroicCRM.Web.Models.CustomerViewModel
+@{
+	var customer = Html.Angular().ModelFor("vm.customer");
+}
+<div class="panel panel-default">
+	<div class="panel-heading">
+		@customer.BindingFor(x => x.Name) <a href="" ng-click="vm.edit()"><i class="fa fa-edit"></i></a>
+		<div class="pull-right">
+			<a class="btn btn-default" href=""
+			   ng-class="{active: vm.selectedView == 'details'}"
+			   ng-click="vm.setView('details')">
+				<i class="fa fa-user"></i> Info
+			</a>
+			<a class="btn btn-green" href=""
+			   ng-class="{active: vm.selectedView == 'opportunities'}"
+			   ng-click="vm.setView('opportunities')">
+				<i class="fa fa-usd"></i> Opportunities
+			</a>
+			<a class="btn btn-red" href=""
+			   ng-class="{active: vm.selectedView == 'risks'}"
+			   ng-click="vm.setView('risks')">
+				<i class="fa fa-exclamation-triangle"></i>Risks
+			</a>
+		</div>
+	</div>
+	<table class="table" ng-show="vm.selectedView == 'details'">
+		<tr class="info text-center" ng-show="@customer.ExpressionFor(x => x.TerminationDate)">
+			<td colspan="4">
+				Inactive Customer
+			</td>
+		</tr>
+		<tr>
+			<th>E-mail</th>
+			<td>
+				Work: @customer.BindingFor(x => x.WorkEmail)<br/>
+				Home: @customer.BindingFor(x => x.HomeEmail)
+			</td>
+			<th>Phone</th>
+			<td>
+				Office: @customer.BindingFor(x => x.WorkPhone)<br/>
+				Mobile: @customer.BindingFor(x => x.HomePhone)
+			</td>
+		</tr>
+		<tr>
+			<th>Work Address</th>
+			<td style="white-space: pre">@customer.BindingFor(x => x.WorkAddress)</td>
+			<th>Home Address</th>
+			<td style="white-space: pre">@customer.BindingFor(x => x.HomeAddress)</td>
+		</tr>
+	</table>
+
+	<div class="panel-body opportunity-list" ng-show="vm.selectedView == 'opportunities'">
+		<div class="row">
+			<div class="col-md-1 half">
+				<span class="fa fa-2x fa-dollar text-success"></span>
+			</div>
+			<div class="col-md-11">
+				<p ng-show="@customer.ExpressionFor(x => x.Opportunities.Count) == 0">There are no opportunities for this customer.</p>
+				@using (var opportunity = customer.Repeat(x => x.Opportunities, "opportunity"))
+				{
+					<hr ng-hide="$index == 0"/>
+					<h3>
+						@opportunity.BindingFor(x => x.Title)
+					</h3>
+					<p>@opportunity.BindingFor(x => x.Description)</p>
+				}
+				<p>
+					<a class="add-btn" href="" ng-click="vm.addOpportunity()">Add a new opportunity</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="panel-body risk-list" ng-show="vm.selectedView == 'risks'">
+		<div class="row">
+			<div class="col-md-1 half">
+				<span class="fa fa-2x fa-warning text-danger"></span>
+			</div>
+			<div class="col-md-11">
+				<p ng-show="@customer.ExpressionFor(x => x.Risks.Count) == 0">There are no risks for this customer.</p>
+				@using (var risk = customer.Repeat(x => x.Risks, "risk"))
+				{
+					<hr ng-hide="$index == 0"/>
+					<h3>
+						@risk.BindingFor(x => x.Title)
+					</h3>
+					<p>@risk.BindingFor(x => x.Description)</p>
+				}
+
+				<p>
+					<a class="add-btn" href="" ng-click="vm.addRisk()">Add a new risk</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+</div>

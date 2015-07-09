@@ -1,0 +1,600 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Description/@EntryValue">On-load JS</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Shortcut/@EntryValue">demo19</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0A32B41258732C44AE34816269D95D31/Text/@EntryValue">&lt;script&gt;
+    document.addEventListener('DOMContentLoaded', function () {
+        document.body.classList.add('load-complete');
+    });
+&lt;/script&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Description/@EntryValue">Added navbar-custom animation.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Shortcut/@EntryValue">demo17</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=111BF352E563F64AACC8F3CD749C82B6/Text/@EntryValue">.navbar-custom {&#xD;
+    animation: dropIn 0.7s ease-in;&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Description/@EntryValue">Added intro-header animation</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Shortcut/@EntryValue">demo16</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3F6356609CF7F44086623CA41CFB295D/Text/@EntryValue">.intro-header {&#xD;
+&#xD;
+    .logo {&#xD;
+        animation: dropIn 0.7s ease-in;&#xD;
+    }&#xD;
+&#xD;
+    .subheading, hr.small {&#xD;
+        opacity: 0;&#xD;
+        animation: fadeIn 0.5s ease-in 1s;&#xD;
+        animation-fill-mode:forwards;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Description/@EntryValue">New intro header styles</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Shortcut/@EntryValue">demo09</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4C8965088724DA478B284EA5FDD6A20C/Text/@EntryValue">.intro-header {&#xD;
+    &amp;::after {&#xD;
+        content: "";&#xD;
+        background-image: url('/images/home-bg.jpg');&#xD;
+        opacity: 0.1;&#xD;
+        top: 0;&#xD;
+        left: 0;&#xD;
+        bottom: 0;&#xD;
+        right: 0;&#xD;
+        position: absolute;&#xD;
+        z-index: -1; &#xD;
+        height: 448px;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Shortcut/@EntryValue">demo01</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Description/@EntryValue">Body fix for LESS file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54428650E6B2574A8D55934658688867/Text/@EntryValue">@import "node_modules/bootstrap/less/bootstrap";
+﻿body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Description/@EntryValue">Logo Markup</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Shortcut/@EntryValue">demo12</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56961C105CCE314282091725E0B7D73C/Text/@EntryValue">&lt;span class="try"&gt;try&lt;/span&gt;-&lt;span class="catch"&gt;catch&lt;/span&gt;-&lt;span class="fail"&gt;FAIL&lt;/span&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Description/@EntryValue">Logo styles and colors.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Shortcut/@EntryValue">demo11</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5F73CD4EC8CFC64584166839AB53CF71/Text/@EntryValue">.logo {
+    &amp;, &amp;:hover {
+        color: black !important;
+    }
+
+    .try {
+        color: #275B5B;
+    }
+
+    .catch {
+        color: #D69A2F;
+    }
+
+    .fail {
+        color: #A20F3E;
+    }
+}
+
+a:focus, a:hover {
+    color: #C95D33 !important;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Description/@EntryValue">New _Layout contents</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Shortcut/@EntryValue">demo07</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5FE1D9DDB4BAAF4B9D99F385036EBADC/Text/@EntryValue">@using System&#xD;
+@using System.Threading.Tasks&#xD;
+@inject IOptions&lt;AppSettings&gt; AppSettings&#xD;
+&lt;!DOCTYPE html&gt;&#xD;
+&lt;html&gt;&#xD;
+    &lt;head&gt;&#xD;
+        &lt;meta charset="utf-8" /&gt;&#xD;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;&#xD;
+        &lt;title&gt;@ViewBag.Title - @AppSettings.Options.SiteTitle&lt;/title&gt;&#xD;
+&#xD;
+        &lt;link rel="stylesheet" href="~/css/all.min.css" /&gt;&#xD;
+    &lt;/head&gt;&#xD;
+    &lt;body&gt;&#xD;
+        &lt;!-- Navigation --&gt;&#xD;
+        &lt;nav class="navbar navbar-default navbar-custom navbar-fixed-top"&gt;&#xD;
+            &lt;div class="container-fluid"&gt;&#xD;
+                &lt;!-- Brand and toggle get grouped for better mobile display --&gt;&#xD;
+                &lt;div class="navbar-header page-scroll"&gt;&#xD;
+                    &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"&gt;&#xD;
+                        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                    &lt;/button&gt;&#xD;
+                    &lt;a asp-controller="Home" asp-action="Index" class="navbar-brand"&gt;&#xD;
+                        try-catch-FAIL&#xD;
+                    &lt;/a&gt;&#xD;
+                &lt;/div&gt;&#xD;
+&#xD;
+                &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;&#xD;
+                &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"&gt;&#xD;
+                    &lt;ul class="nav navbar-nav navbar-right"&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Home" asp-action="Index"&gt;Home&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Archive" asp-action="Index"&gt;Archive&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Home" asp-action="Contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="RSS" asp-action="Index"&gt;RSS&lt;/a&gt;&lt;/li&gt;&#xD;
+                    &lt;/ul&gt;&#xD;
+                &lt;/div&gt;&#xD;
+                &lt;!-- /.navbar-collapse --&gt;&#xD;
+            &lt;/div&gt;&#xD;
+            &lt;!-- /.container --&gt;&#xD;
+        &lt;/nav&gt;&#xD;
+&#xD;
+        &lt;!-- Page Header --&gt;&#xD;
+        &lt;!-- Set your background image for this header on the line below. --&gt;&#xD;
+        &lt;header class="intro-header"&gt;&#xD;
+            &lt;div class="container"&gt;&#xD;
+                &lt;div class="row"&gt;&#xD;
+                    &lt;div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"&gt;&#xD;
+                        &lt;div class="site-heading"&gt;&#xD;
+                            @RenderSection("SiteHeading")&#xD;
+                        &lt;/div&gt;&#xD;
+                    &lt;/div&gt;&#xD;
+                &lt;/div&gt;&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/header&gt;&#xD;
+&#xD;
+        &lt;!-- Main Content --&gt;&#xD;
+        &lt;div class="container"&gt;&#xD;
+            @RenderBody()&#xD;
+        &lt;/div&gt;&#xD;
+&#xD;
+        &lt;footer&gt;&#xD;
+            &lt;div class="container"&gt;&#xD;
+                &lt;div class="row"&gt;&#xD;
+                    &lt;div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"&gt;&#xD;
+                        &lt;ul class="list-inline text-center"&gt;&#xD;
+                            &lt;li&gt;&#xD;
+                                &lt;a href="#"&gt;&#xD;
+                                    &lt;span class="fa-stack fa-lg"&gt;&#xD;
+                                        &lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt;&#xD;
+                                        &lt;i class="fa fa-twitter fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&#xD;
+                                    &lt;/span&gt;&#xD;
+                                &lt;/a&gt;&#xD;
+                            &lt;/li&gt;&#xD;
+                            &lt;li&gt;&#xD;
+                                &lt;a href="#"&gt;&#xD;
+                                    &lt;span class="fa-stack fa-lg"&gt;&#xD;
+                                        &lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt;&#xD;
+                                        &lt;i class="fa fa-facebook fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&#xD;
+                                    &lt;/span&gt;&#xD;
+                                &lt;/a&gt;&#xD;
+                            &lt;/li&gt;&#xD;
+                            &lt;li&gt;&#xD;
+                                &lt;a href="#"&gt;&#xD;
+                                    &lt;span class="fa-stack fa-lg"&gt;&#xD;
+                                        &lt;i class="fa fa-circle fa-stack-2x"&gt;&lt;/i&gt;&#xD;
+                                        &lt;i class="fa fa-github fa-stack-1x fa-inverse"&gt;&lt;/i&gt;&#xD;
+                                    &lt;/span&gt;&#xD;
+                                &lt;/a&gt;&#xD;
+                            &lt;/li&gt;&#xD;
+                        &lt;/ul&gt;&#xD;
+                        &lt;p class="copyright text-muted"&gt;Copyright &amp;copy; @AppSettings.Options.SiteTitle @DateTime.Now.Year&lt;/p&gt;&#xD;
+                    &lt;/div&gt;&#xD;
+                &lt;/div&gt;&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/footer&gt;&#xD;
+&#xD;
+        @RenderSection("scripts", required: false)&#xD;
+    &lt;/body&gt;&#xD;
+&lt;/html&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Description/@EntryValue">Gulp file addition for animated links</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Shortcut/@EntryValue">demo14</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6157A4E1E960CA4E921E90FF25F8AE59/Text/@EntryValue">'./styles/animated-links.less',</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Description/@EntryValue">New Index view contents</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Shortcut/@EntryValue">demo08</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=64245E7F2CC5314CB1477090040B1AB4/Text/@EntryValue">@inject IOptions&lt;AppSettings&gt; AppSettings&#xD;
+@{&#xD;
+    ViewBag.Title = "Home Page";&#xD;
+}&#xD;
+&#xD;
+@section SiteHeading {&#xD;
+    &lt;h1 class="logo"&gt;&#xD;
+        try-catch-FAIL&#xD;
+    &lt;/h1&gt;&#xD;
+    &lt;hr class="small"&gt;&#xD;
+    &lt;span class="subheading"&gt;Failure is inevitable&lt;/span&gt;&#xD;
+}&#xD;
+&#xD;
+&lt;div class="row"&gt;&#xD;
+    &lt;div class="post-preview"&gt;&#xD;
+        &lt;a href="post.html"&gt;&#xD;
+            &lt;h2 class="post-title"&gt;&#xD;
+                Gulp with ASP.NET: am I doing it wrong?&#xD;
+            &lt;/h2&gt;&#xD;
+            &lt;h3 class="post-subtitle"&gt;&#xD;
+                I hope the answer to that question is a very loud, emphatic, “YES!” I like gulp! I want to use it! And I’ll confess up front that I’m still very green with gulp. I know there are a lot of things it can probably do that I’m not taking advantage of. But, I feel like my development experience has taken a step backwards compared to what I had with ASP.NET Bundling &amp; Minification. I feel like gulp has just added more development friction to my day. Someone, please tell me that I’m doing it wrong.&#xD;
+            &lt;/h3&gt;&#xD;
+        &lt;/a&gt;&#xD;
+        &lt;p class="post-meta"&gt;Posted by &lt;a href="#"&gt;Matt Honeycutt&lt;/a&gt; on June 17, 2015&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;hr/&gt;&#xD;
+    &lt;div class="post-preview"&gt;&#xD;
+        &lt;a href="post.html"&gt;&#xD;
+            &lt;h2 class="post-title"&gt;&#xD;
+                Ditching StructureMap’s ObjectFactory&#xD;
+            &lt;/h2&gt;&#xD;
+            &lt;h3 class="post-subtitle"&gt;&#xD;
+                Another question people ask after they’ve watched my App Framework course at Pluralsight is, “What should I do now that StructureMap’s ObjectFactory has been deprecated?” Actually, it’s more like a cry for help rather than a question. It goes like this: “AAHHHHHH OBJECT FACTORY IS GOING AWAY WHAT DO I DO?? AHHHHHHHHHHHHHHHHHH!!” Or at least that’s how I choose to read the comments and questions. :) But don’t panic! Read on, it’s actually far easier to address than you might think.&#xD;
+            &lt;/h3&gt;&#xD;
+        &lt;/a&gt;&#xD;
+        &lt;p class="post-meta"&gt;Posted by &lt;a href="#"&gt;Matt Honeycutt&lt;/a&gt; on June 12, 2015&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;hr/&gt;&#xD;
+    &lt;div class="post-preview"&gt;&#xD;
+        &lt;a href="post.html"&gt;&#xD;
+            &lt;h2 class="post-title"&gt;&#xD;
+                Returning Multiple Result Sets from a Stored Procedure Using Entity Framework 6&#xD;
+            &lt;/h2&gt;&#xD;
+            &lt;h3 class="post-subtitle"&gt;&#xD;
+                I know, I know, you’re already rolling your eyes!  “Stored procedures??!?”  But hey, sometimes a stored procedure is the best solution to a problem!  Entity Framework allows you to call stored procedures quite easily out of the box, but working with sprocs that return multiple result sets isn’t so easy.  Here’s a handy extension method you can use to make it easier.&#xD;
+            &lt;/h3&gt;&#xD;
+        &lt;/a&gt;&#xD;
+        &lt;p class="post-meta"&gt;Posted by &lt;a href="#"&gt;Matt Honeycutt&lt;/a&gt; on June 03, 2015&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;hr /&gt;&#xD;
+    &lt;div class="post-preview"&gt;&#xD;
+        &lt;a href="post.html"&gt;&#xD;
+            &lt;h2 class="post-title"&gt;&#xD;
+                Why are there no “solved problems” in software development?&#xD;
+            &lt;/h2&gt;&#xD;
+            &lt;h3 class="post-subtitle"&gt;&#xD;
+                I’ve been on both sides of the stick in software development.  I’ve been a developer, trying to crank out a feature, and thinking “Geeze, I should be able to do this faster…” and “Wait, you mean this API doesn’t do this for me already??”  I’ve also been a product owner, wondering, “Why in the world is this taking so long?  It’s just a form!”  The sad truth is that even a seemingly-simple problem in software development can turn out to be a serious can of worms.  Why is that?  Well, because the devil is in the details, and there is no such thing as a “solved problem” in software development.&#xD;
+            &lt;/h3&gt;&#xD;
+        &lt;/a&gt;&#xD;
+        &lt;p class="post-meta"&gt;Posted by &lt;a href="#"&gt;Matt Honeycutt&lt;/a&gt; on May 19, 2015&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;hr /&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Description/@EntryValue">NPM block for Gulp file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Shortcut/@EntryValue">demo03</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=714D5F26696D5C489156D76D749A0D11/Text/@EntryValue">fontAwesome: { src: './node_modules/font-awesome/fonts/*', dest: './wwwroot/fonts' }</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Description/@EntryValue">Animated-links.less content</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Shortcut/@EntryValue">demo13</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7CD720573CB889448C93717956FE9863/Text/@EntryValue">//Based on http://tympanus.net/Development/CreativeLinkEffects/&#xD;
+nav a {&#xD;
+	position: relative;&#xD;
+	display: inline-block;&#xD;
+	margin: 15px 25px;&#xD;
+	outline: none;&#xD;
+	text-decoration: none;&#xD;
+	text-transform: uppercase;&#xD;
+	letter-spacing: 1px;&#xD;
+	font-weight: 400;&#xD;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);&#xD;
+	font-size: 1.35em;&#xD;
+&#xD;
+    a:hover,&#xD;
+    a:focus {&#xD;
+	    outline: none;&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+.cool-links a {&#xD;
+	padding: 12px 10px 10px;&#xD;
+	color: #566473;&#xD;
+	text-shadow: none;&#xD;
+	font-weight: 700;&#xD;
+&#xD;
+    &amp;::before,&#xD;
+    &amp;::after {&#xD;
+	    position: absolute;&#xD;
+	    top: 100%;&#xD;
+	    left: 0;&#xD;
+	    width: 100%;&#xD;
+	    height: 3px;&#xD;
+	    background: #566473;&#xD;
+	    content: '';&#xD;
+	    transition: transform 0.3s;&#xD;
+	    transform: scale(0.85);&#xD;
+    }&#xD;
+&#xD;
+    &amp;::after {&#xD;
+	    opacity: 0;&#xD;
+	    transition: top 0.3s, opacity 0.3s, transform 0.3s;&#xD;
+    }&#xD;
+&#xD;
+    &amp;:hover::before,&#xD;
+    &amp;:hover::after,&#xD;
+    &amp;:focus::before,&#xD;
+    &amp;:focus::after {&#xD;
+	    transform: scale(1);&#xD;
+        background: #C95D33;&#xD;
+    }&#xD;
+&#xD;
+    &amp;:hover::after,&#xD;
+    &amp;:focus::after {&#xD;
+	    top: 0;&#xD;
+	    opacity: 1;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Description/@EntryValue">Keyframe animations</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Shortcut/@EntryValue">demo15</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9A3009290B75F2499CB68175FC322103/Text/@EntryValue">@keyframes dropIn {&#xD;
+    from {&#xD;
+        opacity: 0;&#xD;
+        transform: translateY(-40px) scale(1.5, 1.5);&#xD;
+    }&#xD;
+    to {&#xD;
+        opacity: 1;&#xD;
+        transform: translateY(0) scale(1, 1);&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+@keyframes fadeIn {&#xD;
+    from {&#xD;
+        opacity: 0;&#xD;
+    }&#xD;
+    to {&#xD;
+        opacity: 1;&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Description/@EntryValue">Gulp LESS src</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Shortcut/@EntryValue">demo02</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEBA1DAC150DBD4391BCE28ED1D2D085/Text/@EntryValue">'./styles/bootstrap-custom.less',
+'./node_modules/font-awesome/less/font-awesome.less'</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Description/@EntryValue">Font changes for background image</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Shortcut/@EntryValue">demo10</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B7EE526F7B244B4B814B6145FF877951/Text/@EntryValue">.navbar-custom .navbar-brand,
+.navbar-custom .nav li a,
+.intro-header .site-heading {
+    color: black;
+}
+
+.intro-header hr.small {
+    border-color: black;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Description/@EntryValue">Bootstrap-Custom clean blog theme</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Shortcut/@EntryValue">demo06</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DAC712424199A54F82437B6C190F29C6/Text/@EntryValue">@import "node_modules/bootstrap/less/bootstrap";&#xD;
+@import "clean-blog-theme/clean-blog";&#xD;
+﻿.intro-header {&#xD;
+    background-image: url('/images/home-bg.jpg')&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Description/@EntryValue">Bootstrap Layout file</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Shortcut/@EntryValue">demo04</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E23573B64C47BB4AAC8A5841550DE649/Text/@EntryValue">@inject IOptions&lt;AppSettings&gt; AppSettings&#xD;
+&lt;!DOCTYPE html&gt;&#xD;
+&lt;html&gt;&#xD;
+    &lt;head&gt;&#xD;
+        &lt;meta charset="utf-8" /&gt;&#xD;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;&#xD;
+        &lt;title&gt;@ViewBag.Title - @AppSettings.Options.SiteTitle&lt;/title&gt;&#xD;
+&#xD;
+        &lt;link rel="stylesheet" href="~/css/all.min.css" /&gt;&#xD;
+    &lt;/head&gt;&#xD;
+    &lt;body&gt;&#xD;
+        &lt;div class="navbar navbar-inverse navbar-fixed-top"&gt;&#xD;
+            &lt;div class="container"&gt;&#xD;
+                &lt;div class="navbar-header"&gt;&#xD;
+                    &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                        &lt;span class="icon-bar"&gt;&lt;/span&gt;&#xD;
+                    &lt;/button&gt;&#xD;
+                    &lt;a asp-controller="Home" asp-action="Index" class="navbar-brand"&gt;@AppSettings.Options.SiteTitle&lt;/a&gt;&#xD;
+                &lt;/div&gt;&#xD;
+                &lt;div class="navbar-collapse collapse"&gt;&#xD;
+                    &lt;ul class="nav navbar-nav"&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Home" asp-action="Index"&gt;Home&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Archive" asp-action="Index"&gt;Archive&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="Home" asp-action="Contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;&#xD;
+                        &lt;li&gt;&lt;a asp-controller="RSS" asp-action="Index"&gt;RSS&lt;/a&gt;&lt;/li&gt;&#xD;
+                    &lt;/ul&gt;&#xD;
+                &lt;/div&gt;&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/div&gt;&#xD;
+        &lt;div class="container body-content"&gt;&#xD;
+            @RenderBody()&#xD;
+            &lt;hr /&gt;&#xD;
+            &lt;footer&gt;&#xD;
+                &lt;p&gt;&amp;copy; 2015 - @AppSettings.Options.SiteTitle&lt;/p&gt;&#xD;
+            &lt;/footer&gt;&#xD;
+        &lt;/div&gt;&#xD;
+&#xD;
+        @RenderSection("scripts", required: false)&#xD;
+    &lt;/body&gt;&#xD;
+&lt;/html&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Description/@EntryValue">Initial Bootstrap layout for Index view</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Shortcut/@EntryValue">demo05</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E8E5A88E8B44BC4EBDAEA8DDF034461D/Text/@EntryValue">@{&#xD;
+    ViewBag.Title = "Home Page";&#xD;
+}&#xD;
+&#xD;
+&lt;div class="panel panel-default"&gt;&#xD;
+    &lt;div class="panel-heading"&gt;&#xD;
+        &lt;div class="row"&gt;&#xD;
+            &lt;div class="col-lg-8"&gt;&#xD;
+                Gulp with ASP.NET: am I doing it wrong?&#xD;
+            &lt;/div&gt;&#xD;
+            &lt;div class="col-lg-4 text-right"&gt;&#xD;
+                6/17/2015&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/div&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;div class="panel-body"&gt;&#xD;
+        &lt;p&gt;I hope the answer to that question is a very loud, emphatic, “YES!” I like gulp! I want to use it! And I’ll confess up front that I’m still very green with gulp. I know there are a lot of things it can probably do that I’m not taking advantage of. But, I feel like my development experience has taken a step backwards compared to what I had with ASP.NET Bundling &amp; Minification. I feel like gulp has just added more development friction to my day. Someone, please tell me that I’m doing it wrong.&lt;/p&gt;&#xD;
+        &lt;p&gt;&#xD;
+            &lt;a href="#"&gt;Read more...&lt;/a&gt;&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&#xD;
+&lt;div class="panel panel-default"&gt;&#xD;
+    &lt;div class="panel-heading"&gt;&#xD;
+        &lt;div class="row"&gt;&#xD;
+            &lt;div class="col-lg-8"&gt;&#xD;
+                Ditching StructureMap’s ObjectFactory&#xD;
+            &lt;/div&gt;&#xD;
+            &lt;div class="col-lg-4 text-right"&gt;&#xD;
+                6/12/2015&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/div&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;div class="panel-body"&gt;&#xD;
+        &lt;p&gt;Another question people ask after they’ve watched my App Framework course at Pluralsight is, “What should I do now that StructureMap’s ObjectFactory has been deprecated?” Actually, it’s more like a cry for help rather than a question. It goes like this: “AAHHHHHH OBJECT FACTORY IS GOING AWAY WHAT DO I DO?? AHHHHHHHHHHHHHHHHHH!!” Or at least that’s how I choose to read the comments and questions. :) But don’t panic! Read on, it’s actually far easier to address than you might think.&lt;/p&gt;&#xD;
+        &lt;p&gt;&#xD;
+            &lt;a href="#"&gt;Read more...&lt;/a&gt;&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&#xD;
+&lt;div class="panel panel-default"&gt;&#xD;
+    &lt;div class="panel-heading"&gt;&#xD;
+        &lt;div class="row"&gt;&#xD;
+            &lt;div class="col-lg-8"&gt;&#xD;
+                Returning Multiple Result Sets from a Stored Procedure Using Entity Framework 6&#xD;
+            &lt;/div&gt;&#xD;
+            &lt;div class="col-lg-4 text-right"&gt;&#xD;
+                6/03/2015&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/div&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;div class="panel-body"&gt;&#xD;
+        &lt;p&gt;I know, I know, you’re already rolling your eyes!  “Stored procedures??!?”  But hey, sometimes a stored procedure is the best solution to a problem!  Entity Framework allows you to call stored procedures quite easily out of the box, but working with sprocs that return multiple result sets isn’t so easy.  Here’s a handy extension method you can use to make it easier.&lt;/p&gt;&#xD;
+        &lt;p&gt;&#xD;
+            &lt;a href="#"&gt;Read more...&lt;/a&gt;&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+&lt;/div&gt;&#xD;
+&#xD;
+&lt;div class="panel panel-default"&gt;&#xD;
+    &lt;div class="panel-heading"&gt;&#xD;
+        &lt;div class="row"&gt;&#xD;
+            &lt;div class="col-lg-8"&gt;&#xD;
+                Why are there no “solved problems” in software development?&#xD;
+            &lt;/div&gt;&#xD;
+            &lt;div class="col-lg-4 text-right"&gt;&#xD;
+                5/19/2015&#xD;
+            &lt;/div&gt;&#xD;
+        &lt;/div&gt;&#xD;
+    &lt;/div&gt;&#xD;
+    &lt;div class="panel-body"&gt;&#xD;
+        &lt;p&gt;I’ve been on both sides of the stick in software development.  I’ve been a developer, trying to crank out a feature, and thinking “Geeze, I should be able to do this faster…” and “Wait, you mean this API doesn’t do this for me already??”  I’ve also been a product owner, wondering, “Why in the world is this taking so long?  It’s just a form!”  The sad truth is that even a seemingly-simple problem in software development can turn out to be a serious can of worms.  Why is that?  Well, because the devil is in the details, and there is no such thing as a “solved problem” in software development.&lt;/p&gt;&#xD;
+        &lt;p&gt;&#xD;
+            &lt;a href="#"&gt;Read more...&lt;/a&gt;&#xD;
+        &lt;/p&gt;&#xD;
+    &lt;/div&gt;&#xD;
+&lt;/div&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Description/@EntryValue">Initial link transition style</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Shortcut/@EntryValue">demo18</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FBBAD4907FED8841A3B2C98F921FC157/Text/@EntryValue">a {
+    transition: color linear 0.3s;
+}</s:String></wpf:ResourceDictionary>
