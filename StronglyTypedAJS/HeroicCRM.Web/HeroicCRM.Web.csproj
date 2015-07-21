@@ -56,8 +56,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Heroic.AutoMapper">
-      <HintPath>..\packages\Heroic.AutoMapper.1.0.0-alpha01\lib\net45\Heroic.AutoMapper.dll</HintPath>
+    <Reference Include="Heroic.AutoMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Heroic.AutoMapper.1.0.0-alpha02\lib\net45\Heroic.AutoMapper.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Heroic.Web.IoC, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
